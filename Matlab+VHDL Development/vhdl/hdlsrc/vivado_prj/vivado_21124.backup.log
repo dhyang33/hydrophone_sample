@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jun 14 15:54:26 2018
+# Process ID: 21124
+# Current directory: C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj
+# Command line: vivado.exe -mode batch -source hydrophones_fixpt_Xilinx_Vivado_run.tcl
+# Log file: C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj/vivado.log
+# Journal file: C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj\vivado.jou
+#-----------------------------------------------------------
+source hydrophones_fixpt_Xilinx_Vivado_run.tcl
+# set myTool "Xilinx Vivado 2017.4"
+# set myProject "hydrophones_fixpt_vivado"
+# set myProjectFile "hydrophones_fixpt_vivado.xpr"
+# set myTopLevelEntity "hydrophones_fixpt"
+# set Family "Artix7"
+# set Device "xa7a100t"
+# set Package "csg324"
+# set Speed "-1I"
+# set MapTimePathNumber "3"
+# set MapTimeAdvAnalysis "True"
+# set PARTimePathNumber "3"
+# set PARTimeAdvAnalysis "True"
+# puts "### Open existing $myTool project C:\\Users\\Daniel Yang\\Desktop\\Good Hphones\\codegen\\hydrophones\\hdlsrc\\vivado_prj\\hydrophones_fixpt_vivado.xpr"
+### Open existing Xilinx Vivado 2017.4 project C:\Users\Daniel Yang\Desktop\Good Hphones\codegen\hydrophones\hdlsrc\vivado_prj\hydrophones_fixpt_vivado.xpr
+# open_project ${myProject}
+Scanning sources...
+Finished scanning sources
+# puts "### Running PostMapTiming in $myTool ..."
+### Running PostMapTiming in Xilinx Vivado 2017.4 ...
+# open_run synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xa7a100tcsg324-1I
+INFO: [Netlist 29-17] Analyzing 1808 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'hydrophones_fixpt' is not ideal for floorplanning, since the cellview 'hydrophones_fixpt' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 586.590 ; gain = 342.430
+# report_timing_summary -delay_type min_max -report_unconstrained -check_timing_verbose -max_paths $MapTimePathNumber -nworst $MapTimePathNumber -name timing_post_map -file timing_post_map.rpt
+WARNING: [Common 17-708] report_timing_summary: The '-name' option will be ignored becausexit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 14 15:54:53 2018...
+timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1I, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+report_timing_summary: Time (s): cpu = 00:00:43 ; elapsed = 00:00:42 . Memory (MB): peak = 1083.848 ; gain = 497.258
+# source -quiet "C:\\Program Files\\MATLAB\\R2017b\\toolbox\\hdlcoder\\hdlcommon\\+downstreamtools\\extractVivadoTiming.tcl"
+# extracTimingReport ${myTopLevelEntity}_preroute.tvr
+# puts "### PostMapTiming Complete."
+### PostMapTiming Complete.
+# puts "### Close $myTool project."
+### Close Xilinx Vivado 2017.4 project.
+# close_project
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 14 15:56:05 2018...

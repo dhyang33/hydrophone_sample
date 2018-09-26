@@ -1,0 +1,1638 @@
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+source hydrophones_fixpt_Xilinx_Vivado_run.tcl
+### Open existing Xilinx Vivado 2017.4 project C:\Users\Daniel Yang\Desktop\Good Hphones\codegen\hydrophones\hdlsrc\vivado_prj\hydrophones_fixpt_vivado.xpr
+Scanning sources...
+Finished scanning sources
+### Running Synthesis in Xilinx Vivado 2017.4 ...
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj/hydrophones_fixpt_vivado.runs/synth_1
+[Thu Jun 14 15:53:07 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj/hydrophones_fixpt_vivado.runs/synth_1/runme.log
+[Thu Jun 14 15:53:07 2018] Waiting for synth_1 to finish...
+*** Running vivado
+    with args -log hydrophones_fixpt.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hydrophones_fixpt.tcl
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+source hydrophones_fixpt.tcl -notrace
+Command: synth_design -top hydrophones_fixpt -part xa7a100tcsg324-1I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11892 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 351.367 ; gain = 100.660
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hydrophones_fixpt' [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:60]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[3] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1240]
+INFO: [Synth 8-256] done synthesizing module 'hydrophones_fixpt' (1#1) [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:60]
+WARNING: [Synth 8-3917] design hydrophones_fixpt has port tdoa1 driven by constant 0
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 411.703 ; gain = 160.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 411.703 ; gain = 160.996
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a100tcsg324-1I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 411.703 ; gain = 160.996
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:394]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:434]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 3 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1285]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 3 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1285]
+WARNING: [Synth 8-6014] Unused sequential element iter_reg was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:362]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:13 . Memory (MB): peak = 506.746 ; gain = 256.039
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |hydrophones_fixpt__GB0 |           1|     18134|
+|2     |hydrophones_fixpt__GB1 |           1|      6666|
+|3     |hydrophones_fixpt__GB2 |           1|      9761|
+|4     |hydrophones_fixpt__GB3 |           1|      9720|
+|5     |hydrophones_fixpt__GB4 |           1|     15856|
++------+-----------------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     59 Bit       Adders := 2     
+	   2 Input     52 Bit       Adders := 4     
+	   3 Input     52 Bit       Adders := 4     
+	   2 Input     38 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 6     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     30 Bit       Adders := 3     
+	   3 Input     24 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 11    
+	   3 Input     16 Bit       Adders := 2     
+	   2 Input     13 Bit       Adders := 3     
+	   2 Input     12 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	               14 Bit    Registers := 8     
++---Multipliers : 
+	                17x32  Multipliers := 8     
+	                16x32  Multipliers := 1     
+	                16x28  Multipliers := 1     
+	                 8x32  Multipliers := 3     
+	                 9x32  Multipliers := 2     
+	                 7x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     38 Bit        Muxes := 4     
+	   2 Input     23 Bit        Muxes := 7     
+	   2 Input     16 Bit        Muxes := 36    
+	   2 Input     14 Bit        Muxes := 16    
+	   2 Input     13 Bit        Muxes := 5     
+	   2 Input     12 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module hydrophones_fixpt 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     59 Bit       Adders := 2     
+	   2 Input     52 Bit       Adders := 4     
+	   3 Input     52 Bit       Adders := 4     
+	   2 Input     38 Bit       Adders := 4     
+	   3 Input     32 Bit       Adders := 6     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     30 Bit       Adders := 3     
+	   3 Input     24 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 11    
+	   3 Input     16 Bit       Adders := 2     
+	   2 Input     13 Bit       Adders := 3     
+	   2 Input     12 Bit       Adders := 3     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 4     
+	               14 Bit    Registers := 8     
++---Multipliers : 
+	                17x32  Multipliers := 8     
+	                16x32  Multipliers := 1     
+	                16x28  Multipliers := 1     
+	                 8x32  Multipliers := 3     
+	                 9x32  Multipliers := 2     
+	                 7x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     38 Bit        Muxes := 4     
+	   2 Input     23 Bit        Muxes := 7     
+	   2 Input     16 Bit        Muxes := 36    
+	   2 Input     14 Bit        Muxes := 16    
+	   2 Input     13 Bit        Muxes := 5     
+	   2 Input     12 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:654]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:658]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:675]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:856]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1204]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1204]
+DSP Report: Generating DSP ARG2, operation Mode is: (A:0x1daa2)*B.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: Generating DSP ARG2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0x16524)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1204]
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+WARNING: [Synth 8-6014] Unused sequential element iter_reg was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:362]
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP p49time_mul_temp, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator p49time_mul_temp is absorbed into DSP p49time_mul_temp.
+DSP Report: operator p49time_mul_temp is absorbed into DSP p49time_mul_temp.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+(A:0xf4240)*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP p45wave_idx_x, operation Mode is: A*(B:0x61a8).
+DSP Report: operator p45wave_idx_x is absorbed into DSP p45wave_idx_x.
+DSP Report: Generating DSP p45wave_idx_mul_temp1, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator p45wave_idx_mul_temp1 is absorbed into DSP p45wave_idx_mul_temp1.
+DSP Report: operator p45wave_idx_mul_temp1 is absorbed into DSP p45wave_idx_mul_temp1.
+DSP Report: Generating DSP p45wave_idx_mul_temp0, operation Mode is: -C+A*(B:0x61a8)+1-1.
+DSP Report: operator p45wave_idx_mul_temp0 is absorbed into DSP p45wave_idx_mul_temp0.
+DSP Report: operator p45wave_idx_x is absorbed into DSP p45wave_idx_mul_temp0.
+DSP Report: Generating DSP p45wave_idx_mul_temp, operation Mode is: A*(B:0xc8).
+DSP Report: operator p45wave_idx_mul_temp is absorbed into DSP p45wave_idx_mul_temp.
+DSP Report: Generating DSP ARG, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+(A:0xf4240)*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+WARNING: [Synth 8-3917] design hydrophones_fixpt has port tdoa1 driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:00:56 . Memory (MB): peak = 731.516 ; gain = 480.809
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+ROM:
++------------------+---------------------+---------------+----------------+
+|Module Name       | RTL Object          | Depth x Width | Implemented As | 
++------------------+---------------------+---------------+----------------+
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
++------------------+---------------------+---------------+----------------+
+DSP: Preliminary Mapping  Report (see note below)
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping              | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|hydrophones_fixpt | (A:0x1daa2)*B            | 18     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0x16524)*B            | 18     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 17     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 15     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 15     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+(A:0xf4240)*B | 21     | 18     | -      | -      | 42     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*(B:0x61a8)             | 23     | 15     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | -C+A*(B:0x61a8)+1-1      | 23     | 15     | 20     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*(B:0xc8)               | 20     | 8      | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+(A:0xf4240)*B | 21     | 18     | -      | -      | 42     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |hydrophones_fixpt__GB0 |           1|     11673|
+|2     |hydrophones_fixpt__GB1 |           1|      3111|
+|3     |hydrophones_fixpt__GB2 |           1|      4651|
+|4     |hydrophones_fixpt__GB3 |           1|      3403|
+|5     |hydrophones_fixpt__GB4 |           1|     11085|
++------+-----------------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:58 ; elapsed = 00:00:57 . Memory (MB): peak = 731.516 ; gain = 480.809
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++------+-----------------------+------------+----------+
+|      |RTL Partition          |Replication |Instances |
++------+-----------------------+------------+----------+
+|1     |hydrophones_fixpt__GB0 |           1|     11673|
+|2     |hydrophones_fixpt__GB1 |           1|      3111|
+|3     |hydrophones_fixpt__GB2 |           1|      4651|
+|4     |hydrophones_fixpt__GB3 |           1|      3403|
+|5     |hydrophones_fixpt__GB4 |           1|     11085|
++------+-----------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:362]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:777]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:595]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:03 ; elapsed = 00:01:02 . Memory (MB): peak = 775.672 ; gain = 524.965
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+---------------------------------------------------------------------------------
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |  1912|
+|3     |DSP48E1 |    47|
+|4     |LUT1    |   539|
+|5     |LUT2    |  2166|
+|6     |LUT3    |  2336|
+|7     |LUT4    |  1235|
+|8     |LUT5    |  2658|
+|9     |LUT6    |  1806|
+|10    |MUXF7   |   148|
+|11    |MUXF8   |    24|
+|12    |FDCE    |   212|
+|13    |FDPE    |     1|
+|14    |IBUF    |    67|
+|15    |OBUF    |    19|
++------+--------+------+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       | 13171|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 41 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+Synthesis Optimization Complete : Time (s): cpu = 00:01:05 ; elapsed = 00:01:04 . Memory (MB): peak = 775.672 ; gain = 524.965
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 2198 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'hydrophones_fixpt' is not ideal for floorplanning, since the cellview 'hydrophones_fixpt' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+INFO: [Common 17-83] Releasing license: Synthesis
+31 Infos, 42 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:14 ; elapsed = 00:01:14 . Memory (MB): peak = 775.672 ; gain = 536.832
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj/hydrophones_fixpt_vivado.runs/synth_1/hydrophones_fixpt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file hydrophones_fixpt_utilization_synth.rpt -pb hydrophones_fixpt_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.112 . Memory (MB): peak = 775.672 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 14 14:58:04 2018...
+*** Running vivado
+    with args -log hydrophones_fixpt.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hydrophones_fixpt.tcl
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+source hydrophones_fixpt.tcl -notrace
+Command: synth_design -top hydrophones_fixpt -part xa7a100tcsg324-1I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 21760 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 351.156 ; gain = 99.699
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hydrophones_fixpt' [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:60]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[1] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[3] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+INFO: [Synth 8-256] done synthesizing module 'hydrophones_fixpt' (1#1) [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:60]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 411.090 ; gain = 159.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 411.090 ; gain = 159.633
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a100tcsg324-1I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 411.090 ; gain = 159.633
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:411]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:451]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 3 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1329]
+WARNING: [Synth 8-6014] Unused sequential element iter_reg was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:379]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:12 . Memory (MB): peak = 485.414 ; gain = 233.957
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     59 Bit       Adders := 1     
+	   2 Input     52 Bit       Adders := 4     
+	   3 Input     52 Bit       Adders := 4     
+	   2 Input     38 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 5     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     30 Bit       Adders := 2     
+	   3 Input     24 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 8     
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               14 Bit    Registers := 8     
++---Multipliers : 
+	                17x32  Multipliers := 8     
+	                16x32  Multipliers := 1     
+	                16x28  Multipliers := 1     
+	                 9x32  Multipliers := 2     
+	                 8x32  Multipliers := 2     
+	                 7x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     38 Bit        Muxes := 2     
+	   2 Input     23 Bit        Muxes := 7     
+	   2 Input     16 Bit        Muxes := 26    
+	   2 Input     14 Bit        Muxes := 16    
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module hydrophones_fixpt 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     59 Bit       Adders := 1     
+	   2 Input     52 Bit       Adders := 4     
+	   3 Input     52 Bit       Adders := 4     
+	   2 Input     38 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 5     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     30 Bit       Adders := 2     
+	   3 Input     24 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 8     
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               14 Bit    Registers := 8     
++---Multipliers : 
+	                17x32  Multipliers := 8     
+	                16x32  Multipliers := 1     
+	                16x28  Multipliers := 1     
+	                 9x32  Multipliers := 2     
+	                 8x32  Multipliers := 2     
+	                 7x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     38 Bit        Muxes := 2     
+	   2 Input     23 Bit        Muxes := 7     
+	   2 Input     16 Bit        Muxes := 26    
+	   2 Input     14 Bit        Muxes := 16    
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:671]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:675]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:692]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:873]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1225]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1225]
+WARNING: [Synth 8-6014] Unused sequential element iter_reg was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:379]
+DSP Report: Generating DSP p53time_mul_temp, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator p53time_mul_temp is absorbed into DSP p53time_mul_temp.
+DSP Report: operator p53time_mul_temp is absorbed into DSP p53time_mul_temp.
+DSP Report: Generating DSP p49wave_idx_x, operation Mode is: A*(B:0x61a8).
+DSP Report: operator p49wave_idx_x is absorbed into DSP p49wave_idx_x.
+DSP Report: Generating DSP p49wave_idx_mul_temp1, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator p49wave_idx_mul_temp1 is absorbed into DSP p49wave_idx_mul_temp1.
+DSP Report: operator p49wave_idx_mul_temp1 is absorbed into DSP p49wave_idx_mul_temp1.
+DSP Report: Generating DSP p49wave_idx_mul_temp0, operation Mode is: -C+A*(B:0x61a8)+1-1.
+DSP Report: operator p49wave_idx_mul_temp0 is absorbed into DSP p49wave_idx_mul_temp0.
+DSP Report: operator p49wave_idx_x is absorbed into DSP p49wave_idx_mul_temp0.
+DSP Report: Generating DSP p49wave_idx_mul_temp, operation Mode is: A*(B:0xc8).
+DSP Report: operator p49wave_idx_mul_temp is absorbed into DSP p49wave_idx_mul_temp.
+DSP Report: Generating DSP ARG2, operation Mode is: (A:0x1daa2)*B.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: Generating DSP ARG2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0x16524)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP ARG, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+(A:0xf4240)*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[5]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[4]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[3]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[2]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[1]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[0]) is unused and will be removed from module hydrophones_fixpt.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:59 ; elapsed = 00:00:59 . Memory (MB): peak = 764.484 ; gain = 513.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+ROM:
++------------------+---------------------+---------------+----------------+
+|Module Name       | RTL Object          | Depth x Width | Implemented As | 
++------------------+---------------------+---------------+----------------+
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
++------------------+---------------------+---------------+----------------+
+DSP: Preliminary Mapping  Report (see note below)
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping              | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*(B:0x61a8)             | 23     | 15     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | -C+A*(B:0x61a8)+1-1      | 23     | 15     | 20     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*(B:0xc8)               | 20     | 8      | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0x1daa2)*B            | 18     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0x16524)*B            | 18     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 17     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 15     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 15     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+(A:0xf4240)*B | 21     | 18     | -      | -      | 42     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:01:01 ; elapsed = 00:01:01 . Memory (MB): peak = 764.484 ; gain = 513.027
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:379]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:01:06 ; elapsed = 00:01:06 . Memory (MB): peak = 809.496 ; gain = 558.039
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+---------------------------------------------------------------------------------
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |  1578|
+|3     |DSP48E1 |    43|
+|4     |LUT1    |   417|
+|5     |LUT2    |  1883|
+|6     |LUT3    |  1875|
+|7     |LUT4    |  1205|
+|8     |LUT5    |  2234|
+|9     |LUT6    |  1559|
+|10    |MUXF7   |   102|
+|11    |MUXF8   |    18|
+|12    |FDCE    |   196|
+|13    |FDPE    |     1|
+|14    |IBUF    |    67|
+|15    |OBUF    |    49|
++------+--------+------+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       | 11228|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 46 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+Synthesis Optimization Complete : Time (s): cpu = 00:01:08 ; elapsed = 00:01:08 . Memory (MB): peak = 809.496 ; gain = 558.039
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1808 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'hydrophones_fixpt' is not ideal for floorplanning, since the cellview 'hydrophones_fixpt' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 47 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:17 ; elapsed = 00:01:18 . Memory (MB): peak = 831.012 ; gain = 591.301
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj/hydrophones_fixpt_vivado.runs/synth_1/hydrophones_fixpt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file hydrophones_fixpt_utilization_synth.rpt -pb hydrophones_fixpt_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 831.012 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 14 15:41:51 2018...
+*** Running vivado
+    with args -log hydrophones_fixpt.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source hydrophones_fixpt.tcl
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+source hydrophones_fixpt.tcl -notrace
+Command: synth_design -top hydrophones_fixpt -part xa7a100tcsg324-1I
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xa7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 20964 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 351.066 ; gain = 99.844
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'hydrophones_fixpt' [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:60]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element imag_2_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element real_rsvd_2_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[1] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[3] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[4] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[5] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[6] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[7] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[8] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[9] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[10] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[11] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[12] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[13] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[14] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+WARNING: [Synth 8-6014] Unused sequential element max_phase_1_reg[15] was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1261]
+INFO: [Synth 8-256] done synthesizing module 'hydrophones_fixpt' (1#1) [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:60]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 411.398 ; gain = 160.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 411.398 ; gain = 160.176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xa7a100tcsg324-1I
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 411.398 ; gain = 160.176
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xa7a100tcsg324-1I
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:411]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:451]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 3 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1329]
+WARNING: [Synth 8-6014] Unused sequential element iter_reg was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:379]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:10 . Memory (MB): peak = 486.016 ; gain = 234.793
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     59 Bit       Adders := 1     
+	   2 Input     52 Bit       Adders := 4     
+	   3 Input     52 Bit       Adders := 4     
+	   2 Input     38 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 5     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     30 Bit       Adders := 2     
+	   3 Input     24 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 8     
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               14 Bit    Registers := 8     
++---Multipliers : 
+	                17x32  Multipliers := 8     
+	                16x32  Multipliers := 1     
+	                16x28  Multipliers := 1     
+	                 9x32  Multipliers := 2     
+	                 8x32  Multipliers := 2     
+	                 7x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     38 Bit        Muxes := 2     
+	   2 Input     23 Bit        Muxes := 7     
+	   2 Input     16 Bit        Muxes := 26    
+	   2 Input     14 Bit        Muxes := 16    
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module hydrophones_fixpt 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     59 Bit       Adders := 1     
+	   2 Input     52 Bit       Adders := 4     
+	   3 Input     52 Bit       Adders := 4     
+	   2 Input     38 Bit       Adders := 2     
+	   3 Input     32 Bit       Adders := 5     
+	   2 Input     31 Bit       Adders := 2     
+	   2 Input     30 Bit       Adders := 2     
+	   3 Input     24 Bit       Adders := 1     
+	   2 Input     16 Bit       Adders := 8     
+	   3 Input     16 Bit       Adders := 1     
+	   2 Input     13 Bit       Adders := 2     
+	   2 Input     12 Bit       Adders := 2     
+	   2 Input      8 Bit       Adders := 1     
++---Registers : 
+	               23 Bit    Registers := 1     
+	               16 Bit    Registers := 3     
+	               14 Bit    Registers := 8     
++---Multipliers : 
+	                17x32  Multipliers := 8     
+	                16x32  Multipliers := 1     
+	                16x28  Multipliers := 1     
+	                 9x32  Multipliers := 2     
+	                 8x32  Multipliers := 2     
+	                 7x32  Multipliers := 1     
++---Muxes : 
+	   2 Input     38 Bit        Muxes := 2     
+	   2 Input     23 Bit        Muxes := 7     
+	   2 Input     16 Bit        Muxes := 26    
+	   2 Input     14 Bit        Muxes := 16    
+	   2 Input     13 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input      9 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:671]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:675]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:692]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:873]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1225]
+INFO: [Synth 8-5845] Not enough pipeline registers after wide multiplier. Recommended levels of pipeline registers is 2 [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:1225]
+WARNING: [Synth 8-6014] Unused sequential element iter_reg was removed.  [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:379]
+DSP Report: Generating DSP p53time_mul_temp, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator p53time_mul_temp is absorbed into DSP p53time_mul_temp.
+DSP Report: operator p53time_mul_temp is absorbed into DSP p53time_mul_temp.
+DSP Report: Generating DSP p49wave_idx_x, operation Mode is: A*(B:0x61a8).
+DSP Report: operator p49wave_idx_x is absorbed into DSP p49wave_idx_x.
+DSP Report: Generating DSP p49wave_idx_mul_temp1, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator p49wave_idx_mul_temp1 is absorbed into DSP p49wave_idx_mul_temp1.
+DSP Report: operator p49wave_idx_mul_temp1 is absorbed into DSP p49wave_idx_mul_temp1.
+DSP Report: Generating DSP p49wave_idx_mul_temp0, operation Mode is: -C+A*(B:0x61a8)+1-1.
+DSP Report: operator p49wave_idx_mul_temp0 is absorbed into DSP p49wave_idx_mul_temp0.
+DSP Report: operator p49wave_idx_x is absorbed into DSP p49wave_idx_mul_temp0.
+DSP Report: Generating DSP p49wave_idx_mul_temp, operation Mode is: A*(B:0xc8).
+DSP Report: operator p49wave_idx_mul_temp is absorbed into DSP p49wave_idx_mul_temp.
+DSP Report: Generating DSP ARG2, operation Mode is: (A:0x1daa2)*B.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: Generating DSP ARG2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: operator ARG2 is absorbed into DSP ARG2.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0x16524)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG, operation Mode is: A*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG0, operation Mode is: A*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP ARG0, operation Mode is: (A:0xfd70)*B.
+DSP Report: operator ARG0 is absorbed into DSP ARG0.
+DSP Report: Generating DSP min_amplitude_02, operation Mode is: C+A*B.
+DSP Report: operator min_amplitude_02 is absorbed into DSP min_amplitude_02.
+DSP Report: operator ARG is absorbed into DSP min_amplitude_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP thprecorr_02, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: operator thprecorr_02 is absorbed into DSP thprecorr_02.
+DSP Report: Generating DSP ARG, operation Mode is: (A:0xf4240)*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: Generating DSP ARG, operation Mode is: (PCIN>>17)+(A:0xf4240)*B.
+DSP Report: operator ARG is absorbed into DSP ARG.
+DSP Report: operator ARG is absorbed into DSP ARG.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[5]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[4]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[3]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[2]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[1]) is unused and will be removed from module hydrophones_fixpt.
+WARNING: [Synth 8-3332] Sequential element (max_amplitude_1_reg[0]) is unused and will be removed from module hydrophones_fixpt.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:48 . Memory (MB): peak = 766.848 ; gain = 515.625
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+ROM:
++------------------+---------------------+---------------+----------------+
+|Module Name       | RTL Object          | Depth x Width | Implemented As | 
++------------------+---------------------+---------------+----------------+
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT[0]   | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | FI_SIN_COS_LUT_1[0] | 256x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
+|hydrophones_fixpt | ATAN_UFRAC_LUT[0]   | 512x16        | LUT            | 
++------------------+---------------------+---------------+----------------+
+DSP: Preliminary Mapping  Report (see note below)
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name       | DSP Mapping              | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*(B:0x61a8)             | 23     | 15     | -      | -      | 38     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | -C+A*(B:0x61a8)+1-1      | 23     | 15     | 20     | -      | 20     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*(B:0xc8)               | 20     | 8      | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0x1daa2)*B            | 18     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 7      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0x16524)*B            | 18     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 17     | 16     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 15     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 15     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 14     | 14     | -      | -      | 28     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 17     | 16     | -      | -      | 33     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xfd70)*B             | 14     | 17     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | C+A*B                    | 14     | 14     | 26     | -      | 26     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | A*B                      | 18     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+A*B           | 16     | 9      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (A:0xf4240)*B            | 21     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|hydrophones_fixpt | (PCIN>>17)+(A:0xf4240)*B | 21     | 18     | -      | -      | 42     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++------------------+--------------------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:51 ; elapsed = 00:00:50 . Memory (MB): peak = 766.848 ; gain = 515.625
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:379]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:794]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/hydrophones_fixpt.vhd:612]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:54 ; elapsed = 00:00:54 . Memory (MB): peak = 811.949 ; gain = 560.727
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:56 ; elapsed = 00:00:55 . Memory (MB): peak = 811.949 ; gain = 560.727
+---------------------------------------------------------------------------------
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:56 ; elapsed = 00:00:55 . Memory (MB): peak = 811.949 ; gain = 560.727
+---------------------------------------------------------------------------------
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 811.949 ; gain = 560.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 811.949 ; gain = 560.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 811.949 ; gain = 560.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 811.949 ; gain = 560.727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     1|
+|2     |CARRY4  |  1578|
+|3     |DSP48E1 |    43|
+|4     |LUT1    |   417|
+|5     |LUT2    |  1883|
+|6     |LUT3    |  1875|
+|7     |LUT4    |  1205|
+|8     |LUT5    |  2234|
+|9     |LUT6    |  1559|
+|10    |MUXF7   |   102|
+|11    |MUXF8   |    18|
+|12    |FDCE    |   196|
+|13    |FDPE    |     1|
+|14    |IBUF    |    67|
+|15    |OBUF    |    49|
++------+--------+------+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       | 11228|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 811.949 ; gain = 560.727
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 46 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 811.949 ; gain = 560.727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:56 ; elapsed = 00:00:56 . Memory (MB): peak = 811.949 ; gain = 560.727
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1808 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'hydrophones_fixpt' is not ideal for floorplanning, since the cellview 'hydrophones_fixpt' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 47 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:04 ; elapsed = 00:01:04 . Memory (MB): peak = 831.328 ; gain = 591.852
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj/hydrophones_fixpt_vivado.runs/synth_1/hydrophones_fixpt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file hydrophones_fixpt_utilization_synth.rpt -pb hydrophones_fixpt_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 831.328 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 14 15:54:25 2018...
+[Thu Jun 14 15:54:25 2018] synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:00 ; elapsed = 00:01:18 . Memory (MB): peak = 257.566 ; gain = 0.000
+### Synthesis Complete.
+### Close Xilinx Vivado 2017.4 project.
+INFO: [Common 17-206] Exiting Vivado at Thu Jun 14 15:54:25 2018...
+Elapsed time is 85.8951 seconds.

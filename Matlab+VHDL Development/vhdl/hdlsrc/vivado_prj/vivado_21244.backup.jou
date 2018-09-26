@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Jun 14 15:00:02 2018
+# Process ID: 21244
+# Current directory: C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj
+# Command line: vivado.exe -mode batch -source hydrophones_fixpt_Xilinx_Vivado_run.tcl
+# Log file: C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj/vivado.log
+# Journal file: C:/Users/Daniel Yang/Desktop/Good Hphones/codegen/hydrophones/hdlsrc/vivado_prj\vivado.jou
+#-----------------------------------------------------------
+source hydrophones_fixpt_Xilinx_Vivado_run.tcl
